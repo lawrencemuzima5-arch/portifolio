@@ -1,0 +1,88 @@
+/* Body styling */
+
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background-color:red;
+}
+
+/* Header */
+
+header{
+    background-color:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Navigation */
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* Flexbox layout */
+
+.container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:30px;
+    margin:20px;
+    background:white;
+}
+
+/* Image sizing */
+
+img{
+    width:300px;
+    height:250px;
+    border-radius:10px;
+    object-fit:cover;
+}
+
+/* Animation */
+
+img{
+    animation: moveImage 3s infinite alternate;
+}
+
+@keyframes moveImage{
+
+    from{
+        transform:translateY(0px);
+    }
+
+    to{
+        transform:translateY(-15px);
+    }
+}
+
+/* Hover effect */
+
+img:hover{
+    transform:scale(1.1);
+}
+
+/* Sections */
+
+section{
+    margin:20px;
+    padding:20px;
+}
+
+/* Footer */
+
+footer{
+    background-color:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
